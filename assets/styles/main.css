@@ -1,0 +1,74 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#chat-main {
+  background: lightgray;
+  height: 100%;
+}
+
+#chat-timeline {
+  position: absolute;
+  left: 200px;
+  top: 0px;
+}
+
+#chat-form {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  padding-left: 200px;
+}
+
+#chat-textarea {
+  float:left;
+  width: 500px;
+  height: 30px;
+  margin-left: 50px;
+  resize: none;
+}
+
+#chat-send-button {
+  float: left;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  margin-left: 10px;
+  background: skyblue;
+}
+
+#left-bar {
+  height: 100%;
+  width: 200px;
+  background: indigo;
+}
+
+#thread-form {
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 130px;
+  resize: none;
+  float: left;
+}
+
+#thread-create-button {
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 40px;
+  height: 35px;
+  float: left;
+  background: lightgray;
+  color: black;
+}
+
+#current-thread {
+  margin-left: 10px;
+  color: white;
+}
+
+#current-thread {
+  float: none;
+}
